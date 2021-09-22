@@ -19,7 +19,7 @@ export default function Home() {
           <div className="container content-container d-flex align-items-center">
             <div className="row content w-100">
               <div className="col-12">
-                <h1>New website comming soon</h1>
+                <h1>New website coming soon</h1>
               </div>
               <div className="col-12">
               <h2 className="pt-3">Branding og nettsider for andre som drive med det de brenner for.</h2>
