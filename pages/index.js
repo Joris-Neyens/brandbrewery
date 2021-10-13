@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import header from '../public/header.jpg'
 
 export default function Home() {
   return (
@@ -11,7 +12,15 @@ export default function Home() {
         <meta name="Brandbrewery" content="Branding, logos and websites" />
       </Head>
       <div className="header">
-        <Image src="/header.jpg" className="header__image" alt="Norwegian harbor" layout="fill" objectFit="cover" priority />
+        <Image
+          src={header}
+          placeholder="blur"
+          className="header__image"
+          alt="Norwegian harbor"
+          layout="fill"
+          objectFit="cover"
+          priority
+        />
       </div>
       <div className="container-fluid header__content">
         <div className="container logo pt-5 ml-5">
